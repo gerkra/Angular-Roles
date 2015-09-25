@@ -16,7 +16,6 @@
   "dependencies": {
     "angular": "~1.4.6",
     "angular-bootstrap": "~0.13.4",
-    "angular-recaptcha": "~2.2.5",
     "angular-resource": "~1.4.6",
     "angular-route": "~1.4.6"
   }
