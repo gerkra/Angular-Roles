@@ -1,4 +1,4 @@
 {
-  "directory": "public/js/libs",
+  "directory": "src/js/libs",
   "timeout": 120000
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Angular&Roles",
+  "name": "Angular&Permission",
   "version": "0.0.0",
   "authors": [
     "German <gerkra92@gmail.com>"
@@ -16,7 +16,10 @@
   "dependencies": {
     "angular": "~1.4.6",
     "angular-bootstrap": "~0.13.4",
+    "angular-recaptcha": "~2.2.5",
     "angular-resource": "~1.4.6",
-    "angular-route": "~1.4.6"
+    "angular-route": "~1.4.6",
+    "underscore": "~1.8.3",
+    "angular-ui-router": "~0.2.15"
   }
 }

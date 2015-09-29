@@ -16,8 +16,8 @@ module.exports = function (grunt) {
                     'Gruntfile.js',
                     'src/js/modules/**/*.js',
                     'src/templates/**/*.html',
-                    'src/templates/*.html',
-                    'src/index.html'
+                    'src/templates/*.html'/*,
+                    'src/index.html'*/
                 ],
                 tasks: [
                     'concat:dist',
@@ -38,19 +38,10 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: {
-                    'index.html': 'src/index.html',
-                    'build/templates/login.html': 'src/templates/login.html',
-                    'build/templates/register.html': 'src/templates/register.html',
-                    'build/templates/profile.html': 'src/templates/profile.html',
-                    'build/templates/forgotPassword.html': 'src/templates/forgotPassword.html',
-                    'build/templates/confirmPhone.html': 'src/templates/confirmPhone.html',
-                    'build/templates/changePassword.html': 'src/templates/changePassword.html',
-                    'build/templates/users/users.html': 'src/templates/users/users.html',
-                    'build/templates/users/userEdit.html': 'src/templates/users/userEdit.html',
-                    'build/templates/appeals/appealCreate.html': 'src/templates/appeals/appealCreate.html',
-                    'build/templates/appeals/appealDetails.html': 'src/templates/appeals/appealDetails.html',
-                    'build/templates/appeals/appeals.html': 'src/templates/appeals/appeals.html',
-                    'build/templates/appeals/addModal.html': 'src/templates/appeals/addModal.html'
+                    //'index.html': 'src/index.html',
+                    'build/templates/auth/login.html': 'src/templates/auth/login.html',
+                    'build/templates/auth/register.html': 'src/templates/auth/register.html',
+                    'build/templates/auth/forgot.html': 'src/templates/auth/forgot.html'
                 }
             }
         },
@@ -72,9 +63,9 @@ module.exports = function (grunt) {
                 src: [
                     'src/js/libs/angular/angular.js',
                     'src/js/libs/angular-resource/angular-resource.js',
-                    'src/js/libs/angular-route/angular-route.js',
+                    'src/js/libs/angular-ui-router/release/angular-ui-router.js',
                     'src/js/libs/angular-bootstrap/ui-bootstrap-tpls.js',
-                    'src/js/libs/angular-recaptcha/release/angular-recaptcha.min.js',
+                    'src/js/libs/underscore/underscore.js',
                     'src/js/modules/config.js',
                     'src/js/modules/app.js',
                     'src/js/modules/routes.js',
